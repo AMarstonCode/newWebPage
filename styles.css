@@ -1,1 +1,23 @@
-/* this is some styles */
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px;
+    margin: 0px;
+    padding: 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+    border-style: solid;
+    border-color: c9008d;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
